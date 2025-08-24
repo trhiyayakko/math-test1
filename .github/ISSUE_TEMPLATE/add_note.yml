@@ -1,0 +1,23 @@
+name: "Add note (AI-ready)"
+description: "定義/定理/証明の追加を依頼"
+title: "[add] ${kind}: ${title}"
+labels: ["add-note"]
+body:
+  - type: input
+    id: kind
+    attributes: { label: kind (theorem/definition/proof) }
+    validations: { required: true }
+  - type: input
+    id: id
+    attributes: { label: id (e.g., thm:xyz) }
+    validations: { required: true }
+  - type: input
+    id: title
+    attributes: { label: title }
+    validations: { required: true }
+  - type: textarea
+    id: requires
+    attributes: { label: requires (comma separated IDs) }
+  - type: textarea
+    id: body
+    attributes: { label: body (LaTeX可, 最低限の本文) }
