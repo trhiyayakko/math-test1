@@ -1,23 +1,47 @@
 name: "Add note (AI-ready)"
-description: "定義/定理/証明の追加を依頼"
-title: "[add] ${kind}: ${title}"
+description: "定義/定理/証明の追加を依頼するテンプレート"
+title: "[add] {kind}: {title}"
 labels: ["add-note"]
 body:
   - type: input
     id: kind
-    attributes: { label: kind (theorem/definition/proof) }
-    validations: { required: true }
+    attributes:
+      label: kind
+      description: "theorem / definition / proof など"
+      placeholder: "theorem"
+    validations:
+      required: true
+
   - type: input
-    id: id
-    attributes: { label: id (e.g., thm:xyz) }
-    validations: { required: true }
+    id: note_id
+    attributes:
+      label: id
+      description: "一意なID (例: thm:xyz)"
+      placeholder: "thm:xyz"
+    validations:
+      required: true
+
   - type: input
     id: title
-    attributes: { label: title }
-    validations: { required: true }
+    attributes:
+      label: title
+      description: "ノートのタイトル"
+      placeholder: "Fundamental Theorem of Algebra"
+    validations:
+      required: true
+
   - type: textarea
     id: requires
-    attributes: { label: requires (comma separated IDs) }
+    attributes:
+      label: requires
+      description: "依存関係 (IDをカンマ区切りで)"
+      placeholder: "def:polynomial, thm:prime_factorization"
+
   - type: textarea
     id: body
-    attributes: { label: body (LaTeX可, 最低限の本文) }
+    attributes:
+      label: body
+      description: "本文 (LaTeX可, 最低限の本文を書いてください)"
+      placeholder: "ここに本文を書く"
+    validations:
+      required: true
