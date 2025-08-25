@@ -2,7 +2,7 @@
 id: proof:___
 title: Proof of ___
 kind: proof
-requires: ['thm:___', 'def:___', 'thm:___']
+requires: [thm:___, def:___, thm:___]  # 使うもの全部
 status: draft
 authors: [___]
 refs: []
