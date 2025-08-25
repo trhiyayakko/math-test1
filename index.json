@@ -1,0 +1,198 @@
+{
+  "def:___": {
+    "path": "notes/definitions/def_template.md",
+    "title": "___",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:group_action": {
+    "path": "notes/definitions/group_action.md",
+    "title": "群作用",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:orbit_stabilizer": {
+    "path": "notes/definitions/orbit_stabilizer.md",
+    "title": "軌道と安定化群",
+    "kind": "definition",
+    "requires": [
+      "def:group_action"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:solvable_group": {
+    "path": "notes/definitions/solvable_group.md",
+    "title": "可解群",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:normal_subgroup",
+      "def:quotient_group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:quotient_group": {
+    "path": "notes/definitions/quotient_group.md",
+    "title": "商群",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:normal_subgroup"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:direct_product": {
+    "path": "notes/definitions/direct_product.md",
+    "title": "直積",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:center": {
+    "path": "notes/definitions/center.md",
+    "title": "中心",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:subgroup": {
+    "path": "notes/definitions/subgroup.md",
+    "title": "部分群",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:generators": {
+    "path": "notes/definitions/generators.md",
+    "title": "生成系・生成元",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:subgroup"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:simple_group": {
+    "path": "notes/definitions/simple_group.md",
+    "title": "単純群",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:normal_subgroup"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:normal_subgroup": {
+    "path": "notes/definitions/normal_subgroup.md",
+    "title": "正規部分群",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:subgroup"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:semidirect_product": {
+    "path": "notes/definitions/semidirect_product.md",
+    "title": "半直積",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:normal_subgroup",
+      "def:group_action"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:group": {
+    "path": "notes/definitions/group.md",
+    "title": "群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:conjugacy": {
+    "path": "notes/definitions/conjugacy.md",
+    "title": "共役",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:permutation_group": {
+    "path": "notes/definitions/permutation_group.md",
+    "title": "置換群",
+    "kind": "definition",
+    "requires": [
+      "def:group"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:order": {
+    "path": "notes/definitions/order.md",
+    "title": "位数",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:generators"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:conjugacy_class": {
+    "path": "notes/definitions/conjugacy_class.md",
+    "title": "共役類",
+    "kind": "definition",
+    "requires": [
+      "def:group",
+      "def:conjugacy"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:___": {
+    "path": "notes/theorems/thm_template.md",
+    "title": "___",
+    "kind": "theorem",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:___": {
+    "path": "notes/proofs/proof_template.md",
+    "title": "Proof of ___",
+    "kind": "proof",
+    "requires": [
+      "thm:___",
+      "def:___",
+      "thm:___"
+    ],
+    "status": "draft",
+    "tags": []
+  }
+}
