@@ -2,13 +2,33 @@
 id: thm:___
 title: ___
 kind: theorem
-requires: [def:___, thm:___]
+requires: [def:___, thm:___]   # 参照する定義や定理
 status: draft
 authors: [___]
 refs: []
-tags: [___]
+tags: [theorem]
 ---
 
-**Theorem.** ___ である。$\,\,$___
+**Theorem.** ___ である。 $\,\,$ ___
 
-#tags #theorem
+---
+
+### Proofs
+
+#### Proof 1 (直接的/constructive)
+**Proof.**  
+(1) まず $\,\,$ ___ を用いる。 $\,\,$ ___。  
+(2) 次に $\,\,$ ___ より $\,\,$ ___。  
+(3) 以上より結論が従う。 $\square$
+
+---
+
+#### Proof 2 (別法 / by contradiction)
+**Proof (alternative).**  
+(1) 仮に $\,\,$ ___ とすると $\,\,$ ___。  
+(2) しかし $\,\,$ ___ で矛盾する。  
+(3) よって元の主張が成り立つ。 $\square$
+
+---
+
+#tags #theorem #proof
