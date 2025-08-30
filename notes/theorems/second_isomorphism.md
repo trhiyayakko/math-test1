@@ -13,5 +13,18 @@ tags: [group_theory]
 
 **Proof outline.** $H$ から $G/N$ への自然射の核を調べる。
 
-#tags #theorem
+---
 
+### Proofs
+
+#### Proof 1
+**Proof.**
+$H$ を $G$ の部分群，$N$ を正規部分群とする。商写像 $\pi:G\to G/N$ を考えると，$\pi(H)=HN/N$ である。$H$ から $G/N$ への制限 $\pi|_H$ の核は $H\cap N$ であり，像は $HN/N$ である。第1準同型定理より
+\[
+H/(H\cap N) \cong HN/N.
+\]
+これが主張である。$\square$
+
+---
+
+#tags #theorem #proof

@@ -1,95 +1,119 @@
 {
-  "proof:abelian_groups": {
-    "path": "notes/proofs/abelian_groups.md",
-    "title": "アーベル群の基本定理の証明",
-    "kind": "proof",
+  "thm:second_isomorphism": {
+    "path": "notes/theorems/second_isomorphism.md",
+    "title": "第2準同型定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:jordan_holder": {
-    "path": "notes/proofs/jordan_holder.md",
-    "title": "ジョルダン–ヘルダーの定理の証明",
-    "kind": "proof",
+  "thm:cauchy": {
+    "path": "notes/theorems/cauchy.md",
+    "title": "コーシーの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:burnside_lemma": {
-    "path": "notes/proofs/burnside_lemma.md",
-    "title": "バーンサイドの補題の証明",
-    "kind": "proof",
+  "thm:sylow": {
+    "path": "notes/theorems/sylow.md",
+    "title": "シローの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:cayley": {
-    "path": "notes/proofs/cayley.md",
-    "title": "ケイリーの定理の証明",
-    "kind": "proof",
+  "thm:first_isomorphism": {
+    "path": "notes/theorems/first_isomorphism.md",
+    "title": "第1準同型定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:finite_index_intersection": {
-    "path": "notes/proofs/finite_index_intersection.md",
-    "title": "ネーター–イサイの定理の証明",
-    "kind": "proof",
+  "thm:abelian_groups": {
+    "path": "notes/theorems/abelian_groups.md",
+    "title": "アーベル群の基本定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:___": {
-    "path": "notes/proofs/proof_template.md",
-    "title": "Proof of ___",
-    "kind": "proof",
+  "thm:lagrange": {
+    "path": "notes/theorems/lagrange.md",
+    "title": "ラグランジュの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:second_isomorphism": {
-    "path": "notes/proofs/second_isomorphism.md",
-    "title": "第2準同型定理の証明",
-    "kind": "proof",
+  "thm:jordan_holder": {
+    "path": "notes/theorems/jordan_holder.md",
+    "title": "ジョルダン–ヘルダーの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:cauchy": {
-    "path": "notes/proofs/cauchy.md",
-    "title": "コーシーの定理の証明",
-    "kind": "proof",
+  "thm:finite_index_intersection": {
+    "path": "notes/theorems/finite_index_intersection.md",
+    "title": "ネーター–イサイの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:third_isomorphism": {
-    "path": "notes/proofs/third_isomorphism.md",
-    "title": "第3準同型定理の証明",
-    "kind": "proof",
+  "thm:third_isomorphism": {
+    "path": "notes/theorems/third_isomorphism.md",
+    "title": "第3準同型定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:sylow": {
-    "path": "notes/proofs/sylow.md",
-    "title": "シローの定理の証明",
-    "kind": "proof",
+  "thm:___": {
+    "path": "notes/theorems/thm_template.md",
+    "title": "___",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "proof:first_isomorphism": {
-    "path": "notes/proofs/first_isomorphism.md",
-    "title": "第1準同型定理の証明",
-    "kind": "proof",
+  "thm:cayley": {
+    "path": "notes/theorems/cayley.md",
+    "title": "ケイリーの定理",
+    "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "def:normal_subgroup": {
-    "path": "notes/definitions/normal_subgroup.md",
-    "title": "正規部分群",
+  "thm:burnside_lemma": {
+    "path": "notes/theorems/burnside_lemma.md",
+    "title": "バーンサイドの補題",
+    "kind": "theorem",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:order": {
+    "path": "notes/definitions/order.md",
+    "title": "群の位数",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:group": {
+    "path": "notes/definitions/group.md",
+    "title": "群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:orbit": {
+    "path": "notes/definitions/orbit.md",
+    "title": "軌道",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -119,9 +143,17 @@
     "status": "draft",
     "tags": []
   },
-  "def:order": {
-    "path": "notes/definitions/order.md",
-    "title": "群の位数",
+  "def:homomorphism": {
+    "path": "notes/definitions/homomorphism.md",
+    "title": "群準同型",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:normal_subgroup": {
+    "path": "notes/definitions/normal_subgroup.md",
+    "title": "正規部分群",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -135,49 +167,9 @@
     "status": "draft",
     "tags": []
   },
-  "def:orbit": {
-    "path": "notes/definitions/orbit.md",
-    "title": "軌道",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:___": {
-    "path": "notes/definitions/def_template.md",
-    "title": "___",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:p_group": {
-    "path": "notes/definitions/p_group.md",
-    "title": "p-群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:quotient_group": {
-    "path": "notes/definitions/quotient_group.md",
-    "title": "商群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:group": {
-    "path": "notes/definitions/group.md",
-    "title": "群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:composition_series": {
-    "path": "notes/definitions/composition_series.md",
-    "title": "合成列",
+  "def:kernel": {
+    "path": "notes/definitions/kernel.md",
+    "title": "核",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -191,14 +183,6 @@
     "status": "draft",
     "tags": []
   },
-  "def:subgroup": {
-    "path": "notes/definitions/subgroup.md",
-    "title": "部分群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
   "def:simple_group": {
     "path": "notes/definitions/simple_group.md",
     "title": "単純群",
@@ -207,114 +191,130 @@
     "status": "draft",
     "tags": []
   },
-  "def:homomorphism": {
-    "path": "notes/definitions/homomorphism.md",
-    "title": "群準同型",
+  "def:p_group": {
+    "path": "notes/definitions/p_group.md",
+    "title": "p-群",
     "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "def:kernel": {
-    "path": "notes/definitions/kernel.md",
-    "title": "核",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:abelian_groups": {
-    "path": "notes/theorems/abelian_groups.md",
-    "title": "アーベル群の基本定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:jordan_holder": {
-    "path": "notes/theorems/jordan_holder.md",
-    "title": "ジョルダン–ヘルダーの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:burnside_lemma": {
-    "path": "notes/theorems/burnside_lemma.md",
-    "title": "バーンサイドの補題",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:cayley": {
-    "path": "notes/theorems/cayley.md",
-    "title": "ケイリーの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:finite_index_intersection": {
-    "path": "notes/theorems/finite_index_intersection.md",
-    "title": "ネーター–イサイの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:lagrange": {
-    "path": "notes/theorems/lagrange.md",
-    "title": "ラグランジュの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:second_isomorphism": {
-    "path": "notes/theorems/second_isomorphism.md",
-    "title": "第2準同型定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:cauchy": {
-    "path": "notes/theorems/cauchy.md",
-    "title": "コーシーの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:third_isomorphism": {
-    "path": "notes/theorems/third_isomorphism.md",
-    "title": "第3準同型定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:sylow": {
-    "path": "notes/theorems/sylow.md",
-    "title": "シローの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:___": {
-    "path": "notes/theorems/thm_template.md",
+  "def:___": {
+    "path": "notes/definitions/def_template.md",
     "title": "___",
-    "kind": "theorem",
+    "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "thm:first_isomorphism": {
-    "path": "notes/theorems/first_isomorphism.md",
-    "title": "第1準同型定理",
-    "kind": "theorem",
+  "def:subgroup": {
+    "path": "notes/definitions/subgroup.md",
+    "title": "部分群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:composition_series": {
+    "path": "notes/definitions/composition_series.md",
+    "title": "合成列",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:quotient_group": {
+    "path": "notes/definitions/quotient_group.md",
+    "title": "商群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:second_isomorphism": {
+    "path": "notes/proofs/second_isomorphism.md",
+    "title": "第2準同型定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:cauchy": {
+    "path": "notes/proofs/cauchy.md",
+    "title": "コーシーの定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:sylow": {
+    "path": "notes/proofs/sylow.md",
+    "title": "シローの定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:first_isomorphism": {
+    "path": "notes/proofs/first_isomorphism.md",
+    "title": "第1準同型定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:abelian_groups": {
+    "path": "notes/proofs/abelian_groups.md",
+    "title": "アーベル群の基本定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:___": {
+    "path": "notes/proofs/proof_template.md",
+    "title": "Proof of ___",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:jordan_holder": {
+    "path": "notes/proofs/jordan_holder.md",
+    "title": "ジョルダン–ヘルダーの定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:finite_index_intersection": {
+    "path": "notes/proofs/finite_index_intersection.md",
+    "title": "ネーター–イサイの定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:third_isomorphism": {
+    "path": "notes/proofs/third_isomorphism.md",
+    "title": "第3準同型定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:cayley": {
+    "path": "notes/proofs/cayley.md",
+    "title": "ケイリーの定理の証明",
+    "kind": "proof",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "proof:burnside_lemma": {
+    "path": "notes/proofs/burnside_lemma.md",
+    "title": "バーンサイドの補題の証明",
+    "kind": "proof",
     "requires": [],
     "status": "draft",
     "tags": []
