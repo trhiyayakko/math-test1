@@ -2,7 +2,7 @@
 id: thm:___
 title: ___
 kind: theorem
-requires: [def:___, thm:___]   # 参照する定義や定理
+requires: []
 status: draft
 authors: [___]
 refs: []
