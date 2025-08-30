@@ -2,7 +2,7 @@
 id: thm:mean_value
 title: 平均値の定理
 kind: theorem
-requires: [def:derivative]
+requires: ["def:derivative", "thm:rolle"]
 status: draft
 authors: [mathbot]
 refs: []

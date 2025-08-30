@@ -2,7 +2,7 @@
 id: thm:fundamental_calculus
 title: 微積分の基本定理
 kind: theorem
-requires: [def:integral, def:derivative]
+requires: ["def:integral", "def:derivative", "thm:mean_value"]
 status: draft
 authors: [mathbot]
 refs: []

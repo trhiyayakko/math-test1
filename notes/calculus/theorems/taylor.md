@@ -2,7 +2,7 @@
 id: thm:taylor
 title: テイラーの定理
 kind: theorem
-requires: [def:taylor_polynomial, thm:mean_value]
+requires: ["def:taylor_polynomial", "thm:mean_value"]
 status: draft
 authors: [mathbot]
 refs: []

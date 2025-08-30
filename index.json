@@ -1,7 +1,123 @@
 {
-  "def:homomorphism": {
-    "path": "notes/group/definitions/homomorphism.md",
-    "title": "群準同型",
+  "def:___": {
+    "path": "notes/template/definitions/def_template.md",
+    "title": "___",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:___": {
+    "path": "notes/template/theorems/thm_template.md",
+    "title": "___",
+    "kind": "theorem",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:derivative": {
+    "path": "notes/calculus/definitions/derivative.md",
+    "title": "導関数",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:integral": {
+    "path": "notes/calculus/definitions/integral.md",
+    "title": "定積分",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:taylor_polynomial": {
+    "path": "notes/calculus/definitions/taylor_polynomial.md",
+    "title": "テイラー多項式",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:higher_derivative": {
+    "path": "notes/calculus/definitions/higher_derivative.md",
+    "title": "高次導関数",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:limit": {
+    "path": "notes/calculus/definitions/limit.md",
+    "title": "極限",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:taylor": {
+    "path": "notes/calculus/theorems/taylor.md",
+    "title": "テイラーの定理",
+    "kind": "theorem",
+    "requires": [
+      "def:taylor_polynomial",
+      "thm:mean_value"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:rolle": {
+    "path": "notes/calculus/theorems/rolle.md",
+    "title": "ロルの定理",
+    "kind": "theorem",
+    "requires": [
+      "def:derivative"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:mean_value": {
+    "path": "notes/calculus/theorems/mean_value.md",
+    "title": "平均値の定理",
+    "kind": "theorem",
+    "requires": [
+      "def:derivative",
+      "thm:rolle"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "thm:fundamental_calculus": {
+    "path": "notes/calculus/theorems/fundamental_calculus.md",
+    "title": "微積分の基本定理",
+    "kind": "theorem",
+    "requires": [
+      "def:integral",
+      "def:derivative",
+      "thm:mean_value"
+    ],
+    "status": "draft",
+    "tags": []
+  },
+  "def:group": {
+    "path": "notes/group/definitions/group.md",
+    "title": "群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:order": {
+    "path": "notes/group/definitions/order.md",
+    "title": "群の位数",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:kernel": {
+    "path": "notes/group/definitions/kernel.md",
+    "title": "核",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -10,54 +126,6 @@
   "def:composition_series": {
     "path": "notes/group/definitions/composition_series.md",
     "title": "合成列",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:normal_subgroup": {
-    "path": "notes/group/definitions/normal_subgroup.md",
-    "title": "正規部分群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:subgroup": {
-    "path": "notes/group/definitions/subgroup.md",
-    "title": "部分群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:abelian_group": {
-    "path": "notes/group/definitions/abelian_group.md",
-    "title": "アーベル群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:quotient_group": {
-    "path": "notes/group/definitions/quotient_group.md",
-    "title": "商群",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:group_action": {
-    "path": "notes/group/definitions/group_action.md",
-    "title": "群作用",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:prime": {
-    "path": "notes/group/definitions/prime.md",
-    "title": "素数",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -79,14 +147,6 @@
     "status": "draft",
     "tags": []
   },
-  "def:order": {
-    "path": "notes/group/definitions/order.md",
-    "title": "群の位数",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
   "def:p_group": {
     "path": "notes/group/definitions/p_group.md",
     "title": "p-群",
@@ -95,17 +155,25 @@
     "status": "draft",
     "tags": []
   },
-  "def:sylow_subgroup": {
-    "path": "notes/group/definitions/sylow_subgroup.md",
-    "title": "シローp部分群",
+  "def:group_action": {
+    "path": "notes/group/definitions/group_action.md",
+    "title": "群作用",
     "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "def:kernel": {
-    "path": "notes/group/definitions/kernel.md",
-    "title": "核",
+  "def:normal_subgroup": {
+    "path": "notes/group/definitions/normal_subgroup.md",
+    "title": "正規部分群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:subgroup": {
+    "path": "notes/group/definitions/subgroup.md",
+    "title": "部分群",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -119,26 +187,42 @@
     "status": "draft",
     "tags": []
   },
-  "def:group": {
-    "path": "notes/group/definitions/group.md",
-    "title": "群",
+  "def:sylow_subgroup": {
+    "path": "notes/group/definitions/sylow_subgroup.md",
+    "title": "シローp部分群",
     "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "thm:sylow": {
-    "path": "notes/group/theorems/sylow.md",
-    "title": "シローの定理",
-    "kind": "theorem",
+  "def:homomorphism": {
+    "path": "notes/group/definitions/homomorphism.md",
+    "title": "群準同型",
+    "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "thm:first_isomorphism": {
-    "path": "notes/group/theorems/first_isomorphism.md",
-    "title": "第1準同型定理",
-    "kind": "theorem",
+  "def:quotient_group": {
+    "path": "notes/group/definitions/quotient_group.md",
+    "title": "商群",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:prime": {
+    "path": "notes/group/definitions/prime.md",
+    "title": "素数",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:abelian_group": {
+    "path": "notes/group/definitions/abelian_group.md",
+    "title": "アーベル群",
+    "kind": "definition",
     "requires": [],
     "status": "draft",
     "tags": []
@@ -151,17 +235,9 @@
     "status": "draft",
     "tags": []
   },
-  "thm:burnside_lemma": {
-    "path": "notes/group/theorems/burnside_lemma.md",
-    "title": "バーンサイドの補題",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:cayley": {
-    "path": "notes/group/theorems/cayley.md",
-    "title": "ケイリーの定理",
+  "thm:finite_index_intersection": {
+    "path": "notes/group/theorems/finite_index_intersection.md",
+    "title": "ネーター–イサイの定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
@@ -183,17 +259,9 @@
     "status": "draft",
     "tags": []
   },
-  "thm:finite_index_intersection": {
-    "path": "notes/group/theorems/finite_index_intersection.md",
-    "title": "ネーター–イサイの定理",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:abelian_groups": {
-    "path": "notes/group/theorems/abelian_groups.md",
-    "title": "アーベル群の基本定理",
+  "thm:third_isomorphism": {
+    "path": "notes/group/theorems/third_isomorphism.md",
+    "title": "第3準同型定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
@@ -207,81 +275,49 @@
     "status": "draft",
     "tags": []
   },
-  "thm:third_isomorphism": {
-    "path": "notes/group/theorems/third_isomorphism.md",
-    "title": "第3準同型定理",
+  "thm:abelian_groups": {
+    "path": "notes/group/theorems/abelian_groups.md",
+    "title": "アーベル群の基本定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "def:higher_derivative": {
-    "path": "notes/calculus/definitions/higher_derivative.md",
-    "title": "高次導関数",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:integral": {
-    "path": "notes/calculus/definitions/integral.md",
-    "title": "定積分",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:limit": {
-    "path": "notes/calculus/definitions/limit.md",
-    "title": "極限",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:derivative": {
-    "path": "notes/calculus/definitions/derivative.md",
-    "title": "導関数",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:taylor_polynomial": {
-    "path": "notes/calculus/definitions/taylor_polynomial.md",
-    "title": "テイラー多項式",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:fundamental_calculus": {
-    "path": "notes/calculus/theorems/fundamental_calculus.md",
-    "title": "微積分の基本定理",
+  "thm:sylow": {
+    "path": "notes/group/theorems/sylow.md",
+    "title": "シローの定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "thm:taylor": {
-    "path": "notes/calculus/theorems/taylor.md",
-    "title": "テイラーの定理",
+  "thm:cayley": {
+    "path": "notes/group/theorems/cayley.md",
+    "title": "ケイリーの定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "thm:mean_value": {
-    "path": "notes/calculus/theorems/mean_value.md",
-    "title": "平均値の定理",
+  "thm:first_isomorphism": {
+    "path": "notes/group/theorems/first_isomorphism.md",
+    "title": "第1準同型定理",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
     "tags": []
   },
-  "def:basis": {
-    "path": "notes/linear_algebra/definitions/basis.md",
-    "title": "基底",
+  "thm:burnside_lemma": {
+    "path": "notes/group/theorems/burnside_lemma.md",
+    "title": "バーンサイドの補題",
+    "kind": "theorem",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:linear_map": {
+    "path": "notes/linear_algebra/definitions/linear_map.md",
+    "title": "線形写像",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -295,9 +331,9 @@
     "status": "draft",
     "tags": []
   },
-  "def:linear_independence": {
-    "path": "notes/linear_algebra/definitions/linear_independence.md",
-    "title": "線形独立",
+  "def:basis": {
+    "path": "notes/linear_algebra/definitions/basis.md",
+    "title": "基底",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -311,17 +347,9 @@
     "status": "draft",
     "tags": []
   },
-  "def:linear_map": {
-    "path": "notes/linear_algebra/definitions/linear_map.md",
-    "title": "線形写像",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:image_linear": {
-    "path": "notes/linear_algebra/definitions/image_linear.md",
-    "title": "像",
+  "def:linear_independence": {
+    "path": "notes/linear_algebra/definitions/linear_independence.md",
+    "title": "線形独立",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -330,6 +358,14 @@
   "def:dimension": {
     "path": "notes/linear_algebra/definitions/dimension.md",
     "title": "次元",
+    "kind": "definition",
+    "requires": [],
+    "status": "draft",
+    "tags": []
+  },
+  "def:image_linear": {
+    "path": "notes/linear_algebra/definitions/image_linear.md",
+    "title": "像",
     "kind": "definition",
     "requires": [],
     "status": "draft",
@@ -346,22 +382,6 @@
   "thm:steinitz_exchange": {
     "path": "notes/linear_algebra/theorems/steinitz_exchange.md",
     "title": "シュタイニッツの交換補題",
-    "kind": "theorem",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "def:___": {
-    "path": "notes/template/definitions/def_template.md",
-    "title": "___",
-    "kind": "definition",
-    "requires": [],
-    "status": "draft",
-    "tags": []
-  },
-  "thm:___": {
-    "path": "notes/template/theorems/thm_template.md",
-    "title": "___",
     "kind": "theorem",
     "requires": [],
     "status": "draft",
